@@ -1,10 +1,18 @@
 import SDK from './summary.sdk.ts';
+import { CLASS_NAME } from './summary.schema.ts';
 
 /**
  * ---------------------------------------------------------------------------------------
  * Hooks
  * ---------------------------------------------------------------------------------------
  */
+
+// add the Summary class to the list of LiveQuery classes
+Hook.register('liveQueryClasses', (classNames: string[]) => {
+  if (!classNames.includes(CLASS_NAME)) {
+    classNames.push(CLASS_NAME);
+  }
+});
 
 // Set up the Summary class before the server starts taking requests
 Hook.register('beforeStart', () => SDK.schema());

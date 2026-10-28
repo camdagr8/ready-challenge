@@ -15,7 +15,7 @@ const cloudEntry = pathToFileURL(
 
 // Classes whose changes are pushed to LiveQuery subscribers. Subscribers
 // only receive objects their ACL and the class's CLP let them read.
-const LIVE_QUERY_CLASSES = ['Summary', 'Task'];
+const LIVE_QUERY_CLASSES: string[] = [];
 
 // parse-server's bundled types lag behind its runtime: `cloud` is typed as a
 // string only, `maintenanceKey` is marked required (it's optional), and a
@@ -61,6 +61,8 @@ const server = async ({
   databaseURI,
   serverURL,
 }: ServerConfig): Promise<Application> => {
+  let classNames = LIVE_QUERY_CLASSES;
+
   const options: Options = {
     appId,
     masterKey,
@@ -93,7 +95,7 @@ const server = async ({
     protectedFieldsSaveResponseExempt: false,
     installation: { duplicateDeviceTokenActionEnforceAuth: true },
     enableLiveQueryClassLevelPermissionRoles: true,
-    liveQuery: { classNames: LIVE_QUERY_CLASSES },
+    liveQuery: { classNames },
   };
 
   // The named export is a factory that returns the server instance.
@@ -107,6 +109,11 @@ const server = async ({
   Hook.register(
     'beforeStart',
     async ({ httpServer }: { httpServer: Server }) => {
+      await Hook.run('liveQueryClasses', classNames);
+      options.liveQuery = { classNames };
+
+      console.log('LiveQuery classes: [', classNames.join(', '), ']');
+
       await ParseServer.createLiveQueryServer(
         httpServer,
         { appId, masterKey, serverURL },

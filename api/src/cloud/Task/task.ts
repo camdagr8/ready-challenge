@@ -1,10 +1,18 @@
 import SDK from './task.sdk.ts';
+import { CLASS_NAME } from './task.schema.ts';
 
 /**
  * ---------------------------------------------------------------------------------------
  * Hooks
  * ---------------------------------------------------------------------------------------
  */
+
+// add the Task class to the list of LiveQuery classes
+Hook.register('liveQueryClasses', (classNames: string[]) => {
+  if (!classNames.includes(CLASS_NAME)) {
+    classNames.push(CLASS_NAME);
+  }
+});
 
 // Set up the Task class before the server starts taking requests
 Hook.register('beforeStart', () => SDK.schema());
