@@ -7,7 +7,7 @@ import type { FieldSpec, TaskData } from './task.types.ts';
 export const CLASS_NAME: string = 'Task';
 
 // Max number of objects to return at once.
-export const READ_LIMIT: number = 100;
+export const READ_LIMIT: number = 1000;
 
 // Fields for the Task class: a type name, or { type, ...options } for types
 // that need options (e.g. a Pointer's targetClass). objectId, createdAt,
