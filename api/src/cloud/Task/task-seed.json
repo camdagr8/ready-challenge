@@ -1,0 +1,5014 @@
+[
+  {
+    "order": 20,
+    "task": "Write the project brief",
+    "status": "completed",
+    "hours": 11.5,
+    "description": "Summarize the goals, target users and scope for the productivity tracker so everyone works from the same plan.",
+    "notes": "Keep it to one page. List what is out of scope for the first release so it doesn't creep back in.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-01-01T20:50:36.560Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-01T20:50:36.560Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-03T06:35:36.560Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-05T17:47:36.560Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Choose the tech stack",
+    "status": "completed",
+    "hours": 0.5,
+    "description": "Compare front-end frameworks, hosting options and a backend for the tracker, and record the decision.",
+    "notes": "Parse Server covers auth, ACLs and a REST API out of the box, which saves weeks compared with a custom backend.",
+    "focus": "high",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-01-02T17:00:39.082Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-02T17:00:39.082Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-03T00:48:39.082Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-05T07:12:39.082Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Create wireframes for the main screens",
+    "status": "completed",
+    "hours": 23.5,
+    "description": "Sketch the task list, task form, login and settings screens at low fidelity.",
+    "notes": "Wireframe mobile first. Mark where empty, loading and error states will appear on each screen.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-01-05T19:13:25.257Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-05T19:13:25.257Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-06T19:12:25.257Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-12T16:00:25.257Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Set up the local development environment",
+    "status": "completed",
+    "hours": 6.75,
+    "description": "Install Node, MongoDB and editor tooling, and document the steps for new contributors.",
+    "notes": "Pin the Node version with .nvmrc. On Apple Silicon, make sure Node is the native arm64 build so native modules install correctly.",
+    "focus": "low",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-01-08T15:46:21.091Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-08T15:46:21.091Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-10T06:04:21.091Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-12T18:28:21.091Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Scaffold the API project",
+    "status": "completed",
+    "hours": 3.5,
+    "description": "Create the Express app, folder structure and TypeScript config for the API.",
+    "notes": "Run TypeScript directly with Node's type stripping, so there is no build step in development.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-01-13T14:54:45.377Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-13T14:54:45.377Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-14T15:58:45.377Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-15T12:46:45.377Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Scaffold the front-end app with Vite",
+    "status": "completed",
+    "hours": 39.75,
+    "description": "Create the front-end project with Vite, routing and a base layout.",
+    "notes": "Set up path aliases early. Moving files later is much easier when imports don't use long relative paths.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-01-14T21:55:07.435Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-14T21:55:07.435Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-16T08:44:07.435Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-26T12:32:07.435Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add environment variable handling",
+    "status": "completed",
+    "hours": 2.5,
+    "description": "Load settings from .env in development and from the host's settings in production.",
+    "notes": "Commit a .env.example with placeholder values only, and fail fast at startup when a required variable is missing.",
+    "focus": "low",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-01-22T18:54:26.577Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-22T18:54:26.577Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-24T03:51:26.577Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-26T20:51:26.577Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Connect Parse Server to MongoDB",
+    "status": "completed",
+    "hours": 28.75,
+    "description": "Mount Parse Server in the Express app and point it at a local MongoDB database.",
+    "notes": "Turn off client class creation so only the master key can add new classes.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-01-23T17:49:08.837Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-23T17:49:08.837Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-23T21:24:08.837Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-29T21:24:08.837Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add Parse Dashboard for local admin",
+    "status": "started",
+    "hours": 16,
+    "description": "Mount Parse Dashboard in development so data can be inspected and edited.",
+    "notes": "Only enable it when DASHBOARD_ENABLED is true, and never expose it in production without a login.",
+    "focus": "low",
+    "priority": "low",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-01-26T21:09:30.905Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-26T21:09:30.905Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-27T13:01:30.905Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Design the user model",
+    "status": "completed",
+    "hours": 1.75,
+    "description": "Decide which fields users have beyond the defaults, and how profiles are stored.",
+    "notes": "Keep personal details in a separate Profile class with its own ACL, so the _User class stays minimal.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-01-29T21:45:59.982Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-29T21:45:59.982Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-01-31T11:14:59.982Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-02T01:38:59.982Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Build the sign-up form",
+    "status": "completed",
+    "hours": 0.75,
+    "description": "Create the sign-up screen with username, email and password fields and validation.",
+    "notes": "Show password rules before the user types, not only after a failed submit.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-02-04T20:27:12.301Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-04T20:27:12.301Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-05T15:03:12.301Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-06T00:39:12.301Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Build the login form",
+    "status": "completed",
+    "hours": 5.25,
+    "description": "Create the login screen and keep the session after a page reload.",
+    "notes": "Use the Parse SDK's current user to restore the session, and redirect signed-in users away from the login page.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-02-05T21:51:33.949Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-05T21:51:33.949Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-07T07:31:33.949Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-09T11:43:33.949Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add logout and session expiry handling",
+    "status": "completed",
+    "hours": 38.75,
+    "description": "Let users sign out, and send them back to login when their session is no longer valid.",
+    "notes": "Watch for INVALID_SESSION_TOKEN errors globally and clear the stored user when one appears.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-02-12T21:51:27.571Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-12T21:51:27.571Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-14T19:25:27.571Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-23T16:25:27.571Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add email verification",
+    "status": "completed",
+    "hours": 10.25,
+    "description": "Send a verification email on sign-up and show a banner until the address is confirmed.",
+    "notes": "Needs an email adapter in Parse Server. Let unverified users sign in, but limit what they can do.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-02-13T19:29:58.831Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-13T19:29:58.831Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-14T02:26:58.831Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-16T06:38:58.831Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Protect app routes behind login",
+    "status": "completed",
+    "hours": 10,
+    "description": "Redirect signed-out users to the login screen from any page that needs an account.",
+    "notes": "Remember the page the user asked for and return them there after they sign in.",
+    "focus": "low",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-02-17T20:53:46.490Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-17T20:53:46.490Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-18T01:31:46.490Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-20T04:31:46.490Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Write auth error messages",
+    "status": "completed",
+    "hours": 0.25,
+    "description": "Replace raw server errors on the auth screens with clear, friendly messages.",
+    "notes": "Map Parse error codes to messages in one place so every screen shows the same wording.",
+    "focus": "low",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-02-19T15:12:47.877Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-19T15:12:47.877Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-20T19:31:47.877Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-20T21:43:47.877Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add rate limiting to login attempts",
+    "status": "completed",
+    "hours": 0.25,
+    "description": "Slow down repeated failed logins to protect accounts from guessing attacks.",
+    "notes": "Use express-rate-limit in front of the login route, keyed by IP and username.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-02-23T15:39:50.203Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-23T15:39:50.203Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-24T08:49:50.203Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-24T15:01:50.203Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Create the Task class schema",
+    "status": "completed",
+    "hours": 1.5,
+    "description": "Define the Task fields and class-level permissions in code so every environment matches.",
+    "notes": "Run the schema setup on server start. It's safe to run repeatedly because it only adds missing fields.",
+    "focus": "high",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-02-25T18:42:48.650Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-25T18:42:48.650Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-26T19:20:48.650Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-27T08:32:48.650Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Write the Task beforeSave trigger",
+    "status": "completed",
+    "hours": 9.75,
+    "description": "Fill in creator, owner and default values when a task is saved, and protect fields that shouldn't change.",
+    "notes": "Reject a creator change on update, and let the master key set any field for admin tools.",
+    "focus": "high",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-02-26T21:44:46.960Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-26T21:44:46.960Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-02-27T07:11:46.960Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-02T10:59:46.960Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add per-task ACLs",
+    "status": "completed",
+    "hours": 11.5,
+    "description": "Give each task's creator and owner read and write access, and nobody else.",
+    "notes": "Rebuild the ACL whenever the owner changes, so access moves with ownership.",
+    "focus": "high",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-03-03T15:26:42.163Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-03T15:26:42.163Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-04T00:55:42.163Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-06T11:07:42.163Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Build the task list page",
+    "status": "completed",
+    "hours": 24.25,
+    "description": "List the signed-in user's tasks with their status, priority and hours.",
+    "notes": "Start with a plain table, and add sorting and filtering once the data shape is settled.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-03-04T20:24:51.152Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-04T20:24:51.152Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-06T08:09:51.152Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-11T05:33:51.152Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add status and priority badges",
+    "status": "completed",
+    "hours": 2.5,
+    "description": "Show each task's status and priority as color-coded badges in the list.",
+    "notes": "Don't rely on color alone. Include the label text so the badges work for color-blind users.",
+    "focus": "low",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-03-09T15:03:53.355Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-09T15:03:53.355Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-11T11:25:53.355Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-12T00:25:53.355Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add an empty state to the task list",
+    "status": "pending",
+    "hours": 0,
+    "description": "Show a helpful message and a create button when the user has no tasks yet.",
+    "notes": "Use the empty state to explain what a task is in one sentence.",
+    "focus": "low",
+    "priority": "low",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-03-12T21:20:43.310Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-12T21:20:43.310Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add loading skeletons",
+    "status": "completed",
+    "hours": 9.5,
+    "description": "Show placeholder rows while tasks load instead of a blank page.",
+    "notes": "Match the skeleton to the real row height so the page doesn't jump when data arrives.",
+    "focus": "low",
+    "priority": "low",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-03-17T16:37:33.211Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-17T16:37:33.211Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-18T22:28:33.211Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-23T01:04:33.211Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Paginate the task list",
+    "status": "completed",
+    "hours": 5,
+    "description": "Load tasks a page at a time with next and previous controls.",
+    "notes": "Return the total count with each page so the UI can show where the user is.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-03-20T15:35:25.034Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-20T15:35:25.034Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-21T05:10:25.034Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-23T06:10:25.034Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add sorting by order and created date",
+    "status": "completed",
+    "hours": 2.5,
+    "description": "Sort tasks by their order value, then by the date they were created.",
+    "notes": "The second sort key keeps tasks with the same order value in a stable sequence.",
+    "focus": "low",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-03-23T21:55:48.656Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-23T21:55:48.656Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-24T11:02:48.656Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-25T01:02:48.656Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Build the task create form",
+    "status": "completed",
+    "hours": 0.75,
+    "description": "Create a form for new tasks with title, description, hours, focus and priority.",
+    "notes": "Validate on blur and on submit, and keep the user's input if the save fails.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-03-27T17:50:56.529Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-27T17:50:56.529Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-28T03:29:56.529Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-03-30T11:05:56.529Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Build the task edit form",
+    "status": "completed",
+    "hours": 0.75,
+    "description": "Let users edit an existing task using the same form as create.",
+    "notes": "Load the latest version of the task before editing so changes made elsewhere aren't overwritten.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-04-01T20:55:05.392Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-01T20:55:05.392Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-02T17:58:05.392Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-03T00:34:05.392Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add the task-create cloud function",
+    "status": "completed",
+    "hours": 0.75,
+    "description": "Expose task creation through a cloud function that runs as the signed-in user.",
+    "notes": "Pass the caller's session token so beforeSave sees the real user and sets the ACL.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-04-02T21:31:49.834Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-02T21:31:49.834Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-04T02:08:49.834Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-06T08:44:49.834Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add the task-update cloud function",
+    "status": "completed",
+    "hours": 3.75,
+    "description": "Expose task updates through a cloud function that checks the caller's access.",
+    "notes": "Fetch the task with the caller's session token, so tasks they can't see return 'not found'.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-04-09T21:07:33.815Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-09T21:07:33.815Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-11T09:11:33.815Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-13T05:11:33.815Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add the task-read cloud function with filters",
+    "status": "completed",
+    "hours": 8.75,
+    "description": "Return a page of tasks filtered by status, owner or creator.",
+    "notes": "Owner and creator filters must compare against _User pointers, not plain objectId strings.",
+    "focus": "high",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-04-10T17:00:05.899Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-10T17:00:05.899Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-12T00:15:05.899Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-13T23:15:05.899Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Validate task fields against the schema",
+    "status": "completed",
+    "hours": 10.75,
+    "description": "Reject unknown fields and wrong value types before a task is saved.",
+    "notes": "Drive validation from the same FIELDS definition as the schema so the two can't drift apart.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-04-13T19:54:10.360Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-13T19:54:10.360Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-15T10:30:10.360Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-17T16:06:10.360Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add soft delete for tasks",
+    "status": "completed",
+    "hours": 5.5,
+    "description": "Mark tasks as deleted instead of removing them, and hide them from normal lists.",
+    "notes": "Keep deleted tasks for 30 days so users can restore them, then clean them up with a job.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-04-14T15:39:45.287Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-14T15:39:45.287Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-16T05:50:45.287Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-17T13:14:45.287Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Show a confirmation before deleting a task",
+    "status": "started",
+    "hours": 17.5,
+    "description": "Ask users to confirm before a task is deleted, with an undo option afterwards.",
+    "notes": "An undo toast is friendlier than a modal for an action that's easy to reverse.",
+    "focus": "low",
+    "priority": "low",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-04-22T16:06:50.270Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-22T16:06:50.270Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-22T22:55:50.270Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Record task activity history",
+    "status": "completed",
+    "hours": 10.25,
+    "description": "Store each status change with who made it and when.",
+    "notes": "Append entries with an atomic add so two quick updates can't overwrite each other.",
+    "focus": "high",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-04-24T19:46:51.189Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-24T19:46:51.189Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-26T16:06:51.189Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-28T20:18:51.189Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Set up Vitest for the API",
+    "status": "completed",
+    "hours": 0.25,
+    "description": "Add Vitest with TypeScript support and an npm script to run the tests.",
+    "notes": "Reset module state and mocks between tests so they don't depend on each other.",
+    "focus": "low",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-04-27T18:59:20.165Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-27T18:59:20.165Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-28T13:02:20.165Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-28T18:14:20.165Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Write unit tests for the Task SDK",
+    "status": "completed",
+    "hours": 1.25,
+    "description": "Test create, read and update, including validation errors and access rules.",
+    "notes": "Fake Parse queries and saves so the tests don't need a database.",
+    "focus": "high",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-04-29T18:26:00.058Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-29T18:26:00.058Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-30T01:16:00.058Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-04-30T08:16:00.058Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Write tests for the beforeSave trigger",
+    "status": "completed",
+    "hours": 12,
+    "description": "Cover creator and owner defaults, ACLs and activity entries for new and updated tasks.",
+    "notes": "Call the trigger directly with fake request objects, including a master-key save.",
+    "focus": "high",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-05-04T19:49:29.621Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-04T19:49:29.621Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-06T14:46:29.621Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-11T01:22:29.621Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Set up Playwright for end-to-end tests",
+    "status": "completed",
+    "hours": 4,
+    "description": "Add Playwright and a first smoke test that loads the app and signs in.",
+    "notes": "Run the tests against a separate database that is reset before each run.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-05-06T20:20:38.220Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-06T20:20:38.220Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-08T13:08:38.220Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-11T14:20:38.220Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Write an end-to-end test for sign-up and login",
+    "status": "completed",
+    "hours": 9,
+    "description": "Automate signing up, logging out and logging back in.",
+    "notes": "Generate a unique username for each run so the test can be repeated safely.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-05-13T20:18:52.364Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-13T20:18:52.364Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-14T00:29:52.364Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-15T20:41:52.364Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Write an end-to-end test for the task lifecycle",
+    "status": "completed",
+    "hours": 1.75,
+    "description": "Automate creating a task, moving it through each status and deleting it.",
+    "notes": "Use data-testid attributes so the test doesn't break when copy or styles change.",
+    "focus": "high",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-05-15T18:44:21.296Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-15T18:44:21.296Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-16T03:20:21.296Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-18T14:44:21.296Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add test coverage reporting",
+    "status": "completed",
+    "hours": 0.5,
+    "description": "Report test coverage in CI and fail the build if it drops below a threshold.",
+    "notes": "Start the threshold at the current coverage level and raise it gradually.",
+    "focus": "low",
+    "priority": "low",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-05-18T19:12:35.057Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-18T19:12:35.057Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-19T03:08:35.057Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-19T06:32:35.057Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Fix flaky tests in CI",
+    "status": "completed",
+    "hours": 9,
+    "description": "Find and fix tests that pass locally but fail intermittently in CI.",
+    "notes": "Most flakiness comes from timing. Wait for specific UI states instead of using fixed delays.",
+    "focus": "high",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-05-22T19:38:41.996Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-22T19:38:41.996Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-24T16:39:41.996Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-26T16:51:41.996Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Create the design tokens",
+    "status": "completed",
+    "hours": 4.25,
+    "description": "Define colors, spacing, type sizes and radii as CSS custom properties.",
+    "notes": "Name tokens by purpose (text, surface, accent) rather than by color, so themes can change them.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-05-26T20:24:15.795Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-26T20:24:15.795Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-28T01:23:15.795Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-28T23:47:15.795Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Build the shared button and input components",
+    "status": "completed",
+    "hours": 8.5,
+    "description": "Create reusable buttons, text inputs and selects with consistent styles and states.",
+    "notes": "Include focus, hover, disabled and error states from the start.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-05-27T14:42:45.957Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-27T14:42:45.957Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-29T03:54:45.957Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-01T23:42:45.957Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Make the layout responsive",
+    "status": "completed",
+    "hours": 8.75,
+    "description": "Adjust the task list and forms for phone and tablet widths.",
+    "notes": "Design mobile first with breakpoints around 640px and 1024px, and keep tap targets at least 44px.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-05-29T16:14:01.016Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-29T16:14:01.016Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-05-30T11:22:01.016Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-01T08:22:01.016Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add dark mode",
+    "status": "completed",
+    "hours": 10.25,
+    "description": "Add a dark theme that follows the system setting, with a manual toggle.",
+    "notes": "Apply the saved theme before first paint to avoid a flash of the wrong colors.",
+    "focus": "low",
+    "priority": "low",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-06-02T15:53:11.566Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-02T15:53:11.566Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-02T18:43:11.566Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-04T22:55:11.566Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Run an accessibility audit",
+    "status": "completed",
+    "hours": 6,
+    "description": "Check keyboard navigation, labels, focus states and color contrast across all screens.",
+    "notes": "Start with axe or Lighthouse, then test manually with only the keyboard and a screen reader.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-06-03T19:03:42.860Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-03T19:03:42.860Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-03T20:04:42.860Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-05T04:52:42.860Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Fix accessibility issues from the audit",
+    "status": "completed",
+    "hours": 8,
+    "description": "Fix the problems found in the audit, starting with the most serious.",
+    "notes": "Add an automated axe check to the end-to-end tests so the fixes don't regress.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-06-08T16:59:47.927Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-08T16:59:47.927Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-09T20:28:47.927Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-11T12:52:47.927Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add drag-and-drop task reordering",
+    "status": "completed",
+    "hours": 9.5,
+    "description": "Let users drag tasks to change their order, and save the new order values.",
+    "notes": "Use dnd-kit for keyboard and touch support, and save all moved tasks in one batch.",
+    "focus": "high",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-06-09T18:21:55.205Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-09T18:21:55.205Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-10T20:10:55.205Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-12T22:46:55.205Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add a keyboard alternative for reordering",
+    "status": "completed",
+    "hours": 2.25,
+    "description": "Let users move tasks up and down with the keyboard as well as by dragging.",
+    "notes": "Announce the new position to screen readers after each move.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-06-17T17:10:40.420Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-17T17:10:40.420Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-18T03:54:40.420Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-18T17:42:40.420Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Design the settings page",
+    "status": "started",
+    "hours": 1.5,
+    "description": "Create a settings page for profile details, theme and notification preferences.",
+    "notes": "Group settings into sections and save each change immediately, with a small confirmation.",
+    "focus": "low",
+    "priority": "low",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-06-18T20:50:02.654Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-18T20:50:02.654Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-19T08:51:02.654Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add database indexes for task queries",
+    "status": "completed",
+    "hours": 11.25,
+    "description": "Index the Task class on owner and order to match the task list query.",
+    "notes": "Check the query plan with explain() before and after adding the index.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-06-22T14:34:13.870Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-22T14:34:13.870Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-24T14:18:13.870Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-26T21:18:13.870Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Measure page load performance",
+    "status": "completed",
+    "hours": 33.25,
+    "description": "Record Lighthouse scores and Core Web Vitals for the main pages as a baseline.",
+    "notes": "Test on a throttled mobile profile, since that is where problems show up first.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-06-23T20:24:34.986Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-23T20:24:34.986Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-25T07:54:34.986Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-02T01:30:34.986Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Lazy-load routes",
+    "status": "completed",
+    "hours": 7,
+    "description": "Split the front-end bundle by route so each page loads only the code it needs.",
+    "notes": "Show a small loading state while a route's code downloads.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-06-29T15:09:46.398Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-29T15:09:46.398Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-06-30T14:10:46.398Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-02T00:46:46.398Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Reduce the front-end bundle size",
+    "status": "pending",
+    "hours": 0,
+    "description": "Find and remove large or unused dependencies from the front-end bundle.",
+    "notes": "Use rollup-plugin-visualizer to see what's in the bundle before deciding what to cut.",
+    "focus": "medium",
+    "priority": "low",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-07-03T17:10:57.299Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-03T17:10:57.299Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Cache task list queries",
+    "status": "completed",
+    "hours": 0.25,
+    "description": "Cache the task list on the client and refresh it in the background.",
+    "notes": "Invalidate the cache after any create, update or delete so users never see stale data.",
+    "focus": "high",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-07-06T21:27:22.831Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-06T21:27:22.831Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-08T10:23:22.831Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-08T13:35:22.831Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Optimize images and icons",
+    "status": "pending",
+    "hours": 0,
+    "description": "Compress images and switch icons to an SVG sprite.",
+    "notes": "Serve modern formats like AVIF or WebP with a fallback.",
+    "focus": "low",
+    "priority": "low",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-07-07T19:34:09.167Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-07T19:34:09.167Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add response compression to the API",
+    "status": "completed",
+    "hours": 1,
+    "description": "Compress API responses to reduce transfer size.",
+    "notes": "Skip compression for very small responses, where it adds more overhead than it saves.",
+    "focus": "low",
+    "priority": "low",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-07-13T15:23:19.221Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-13T15:23:19.221Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-15T03:57:19.221Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-15T10:45:19.221Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Profile slow cloud functions",
+    "status": "completed",
+    "hours": 12,
+    "description": "Find which cloud functions are slowest and why.",
+    "notes": "Log the duration of each cloud function call and look at the slowest 5 percent.",
+    "focus": "high",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-07-15T19:31:06.894Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-15T19:31:06.894Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-16T00:45:06.894Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-20T13:21:06.894Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Fix N+1 queries in the task list",
+    "status": "completed",
+    "hours": 7.75,
+    "description": "Load related users in one query instead of one query per task.",
+    "notes": "Use include('owner') on the task query rather than fetching each owner separately.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-07-20T21:58:31.123Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-20T21:58:31.123Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-22T12:08:31.123Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-24T07:20:31.123Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Set up the CI pipeline",
+    "status": "completed",
+    "hours": 0.5,
+    "description": "Run lint, type-check and tests on every pull request.",
+    "notes": "Cache node_modules between runs and run the checks as separate jobs so failures are easy to spot.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-07-22T21:58:37.353Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-22T21:58:37.353Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-23T03:51:37.353Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-23T10:15:37.353Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add branch protection rules",
+    "status": "completed",
+    "hours": 7.25,
+    "description": "Require a passing CI run and an approving review before merging to main.",
+    "notes": "Allow admins to bypass the rules only in emergencies, and log when they do.",
+    "focus": "low",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-07-29T17:10:20.442Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-29T17:10:20.442Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-31T03:58:20.442Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-03T20:46:20.442Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Containerize the API with Docker",
+    "status": "completed",
+    "hours": 19.25,
+    "description": "Write a Dockerfile for the API and a docker-compose file for local development.",
+    "notes": "Use a multi-stage build so the final image doesn't include development tools.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-07-31T21:25:20.180Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-07-31T21:25:20.180Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-01T11:04:20.180Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-05T13:28:20.180Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Set up the staging environment",
+    "status": "completed",
+    "hours": 2,
+    "description": "Deploy the API and app to a staging environment with its own database.",
+    "notes": "Seed staging with realistic test data, never a copy of production user data.",
+    "focus": "high",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-08-05T20:53:51.604Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-05T20:53:51.604Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-06T23:11:51.604Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-07T14:47:51.604Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Automate deployments to staging",
+    "status": "completed",
+    "hours": 9.25,
+    "description": "Deploy to staging automatically on every merge to main.",
+    "notes": "Post the deploy result and a link to the staging site in the team channel.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-08-07T16:27:17.336Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-07T16:27:17.336Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-08T00:44:17.336Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-10T00:08:17.336Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Set up the production environment",
+    "status": "completed",
+    "hours": 2,
+    "description": "Create the production hosting, database and domain for the app.",
+    "notes": "Enable automated database backups before the first real user signs up.",
+    "focus": "high",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-08-11T17:21:09.574Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-11T17:21:09.574Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-12T02:00:09.574Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-12T17:36:09.574Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add a manual approval step for production deploys",
+    "status": "completed",
+    "hours": 7.5,
+    "description": "Require someone to approve each production deploy after staging checks pass.",
+    "notes": "Make rolling back to the previous release a single command.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-08-12T20:25:01.562Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-12T20:25:01.562Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-13T19:08:01.562Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-17T08:08:01.562Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Set up error monitoring",
+    "status": "completed",
+    "hours": 35.25,
+    "description": "Report uncaught errors from the app and the API to a monitoring service.",
+    "notes": "Upload source maps during the build but don't serve them publicly.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-08-18T20:22:41.338Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-18T20:22:41.338Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-19T00:42:41.338Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-26T03:54:41.338Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add uptime monitoring and alerts",
+    "status": "completed",
+    "hours": 1.75,
+    "description": "Check that the app and API are up, and alert the team when they're not.",
+    "notes": "Add a /health endpoint that also checks the database connection.",
+    "focus": "low",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-08-20T14:17:35.718Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-20T14:17:35.718Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-21T07:44:35.718Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-21T20:08:35.718Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Write the deployment runbook",
+    "status": "completed",
+    "hours": 1.25,
+    "description": "Document how to deploy, roll back and fix the most common production problems.",
+    "notes": "Include who to contact and where the logs are for each part of the system.",
+    "focus": "low",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-08-26T14:02:48.225Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-26T14:02:48.225Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-28T09:43:48.225Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-28T18:43:48.225Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add the startedAt field to tasks",
+    "status": "completed",
+    "hours": 12,
+    "description": "Record when work on each task began, defaulting to when the task is created.",
+    "notes": "Tasks saved before the field existed fall back to their createdAt date.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-08-27T14:49:13.809Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-27T14:49:13.809Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-28T22:16:13.809Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-31T13:52:13.809Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add an hours tracker to the task form",
+    "status": "completed",
+    "hours": 1,
+    "description": "Let users log time spent on a task in quarter-hour steps.",
+    "notes": "Use a number input with step 0.25, and show the total in hours and minutes.",
+    "focus": "low",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-08-31T17:34:49.011Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-08-31T17:34:49.011Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-09-01T00:20:49.011Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-09-01T09:08:49.011Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Build the weekly summary data model",
+    "status": "completed",
+    "hours": 1.75,
+    "description": "Define a Summary class that stores each user's weekly metrics and suggestions.",
+    "notes": "Make summaries readable only by their owner, and writable only by cloud code.",
+    "focus": "high",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-09-02T17:38:43.174Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-09-02T17:38:43.174Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-09-03T15:00:43.174Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-09-04T05:24:43.174Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Calculate weekly productivity metrics",
+    "status": "completed",
+    "hours": 1,
+    "description": "Count tasks started and completed and hours logged for each week.",
+    "notes": "Use activity timestamps for completions rather than updatedAt, which changes on any edit.",
+    "focus": "high",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-09-08T15:01:17.961Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-09-08T15:01:17.961Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-09-09T19:54:17.961Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-09-10T04:42:17.961Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Generate weekly summaries with an AI model",
+    "status": "completed",
+    "hours": 10,
+    "description": "Use an AI model to write a short summary of the week with suggestions for next week.",
+    "notes": "Give the model the metrics as a tool and keep the prompt focused on concrete, actionable suggestions.",
+    "focus": "high",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-09-11T19:21:22.325Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-09-11T19:21:22.325Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-09-13T13:00:22.325Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-09-15T16:00:22.325Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add the summary page",
+    "status": "completed",
+    "hours": 2,
+    "description": "Show the weekly summary, metrics and suggestions on their own page.",
+    "notes": "Show the metrics as a simple chart above the written summary.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-09-14T21:08:01.492Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-09-14T21:08:01.492Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-09-15T22:22:01.492Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-09-16T09:58:01.492Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Let users filter tasks by focus",
+    "status": "pending",
+    "hours": 0,
+    "description": "Add a filter for low, medium and high focus tasks on the task list.",
+    "notes": "Keep the filter in the URL so a filtered view can be bookmarked or shared.",
+    "focus": "low",
+    "priority": "low",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-09-16T19:17:32.862Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-09-16T19:17:32.862Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add task search",
+    "status": "completed",
+    "hours": 31.25,
+    "description": "Let users search tasks by title and description.",
+    "notes": "Use a text index in MongoDB, and debounce the input so each keystroke doesn't start a query.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-09-21T21:39:05.873Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-09-21T21:39:05.873Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-09-23T08:41:05.873Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-09-29T17:41:05.873Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add the admin seed user",
+    "status": "completed",
+    "hours": 0.75,
+    "description": "Create an admin account on server start if one doesn't already exist.",
+    "notes": "Read the admin password from ADMIN_PASSWORD in .env so it never appears in the code.",
+    "focus": "low",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-09-23T21:20:42.347Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-09-23T21:20:42.347Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-09-24T22:09:42.347Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-09-25T04:45:42.347Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Seed demo tasks on first start",
+    "status": "started",
+    "hours": 5.5,
+    "description": "Load sample tasks from a JSON file when the Task class is empty.",
+    "notes": "Only seed when there are no tasks, so restarting the server never creates duplicates.",
+    "focus": "medium",
+    "priority": "low",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-01T15:59:38.219Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-01T15:59:38.219Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-01T18:12:38.219Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add a hook system for startup events",
+    "status": "completed",
+    "hours": 10,
+    "description": "Let modules register callbacks for bootstrap, beforeStart and started events.",
+    "notes": "Run schema setup in beforeStart so it finishes before the server accepts requests.",
+    "focus": "high",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-02T16:32:13.810Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-02T16:32:13.810Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-03T11:15:13.810Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-05T13:15:13.810Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Move schema setup to server startup",
+    "status": "completed",
+    "hours": 5.25,
+    "description": "Create or update every class schema when the server starts instead of on first use.",
+    "notes": "A failed schema setup should stop the server from starting rather than leave it half ready.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-07T19:41:25.545Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-07T19:41:25.545Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-09T13:56:25.545Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-12T17:08:25.545Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Organize the API code by domain",
+    "status": "pending",
+    "hours": 0,
+    "description": "Group each domain's code, types and schema in its own folder.",
+    "notes": "Name type files .types.ts and schema files .schema.ts so the loaders can skip them.",
+    "focus": "medium",
+    "priority": "low",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-09T16:46:09.134Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-09T16:46:09.134Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Document the cloud functions",
+    "status": "completed",
+    "hours": 5,
+    "description": "List every cloud function with its parameters, permissions and response.",
+    "notes": "Include an example request and response for each function.",
+    "focus": "low",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-13T18:34:44.365Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-13T18:34:44.365Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-14T03:33:44.365Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "completed",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-15T09:33:44.365Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Review the class-level permissions",
+    "status": "started",
+    "hours": 12,
+    "description": "Check that every class's CLP allows only what the app needs.",
+    "notes": "Lock delete and addField to the master key, and rely on ACLs for per-object access.",
+    "focus": "high",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-16T14:48:11.696Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-16T14:48:11.696Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-17T01:33:11.696Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add notifications for overdue tasks",
+    "status": "started",
+    "hours": 1.75,
+    "description": "Remind users about tasks that have been started for more than a week.",
+    "notes": "Send one reminder a day at most, and let users turn reminders off in settings.",
+    "focus": "medium",
+    "priority": "low",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-19T17:32:23.909Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-19T17:32:23.909Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-21T06:50:23.909Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Run a security review",
+    "status": "started",
+    "hours": 0.5,
+    "description": "Review authentication, access rules and dependency vulnerabilities before launch.",
+    "notes": "Run npm audit, check that the master key never reaches the client, and test the ACLs as a second user.",
+    "focus": "high",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-21T16:45:32.041Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-21T16:45:32.041Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-23T01:08:32.041Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Write the user guide",
+    "status": "started",
+    "hours": 9,
+    "description": "Write a short guide covering tasks, statuses, hours and weekly summaries.",
+    "notes": "Use screenshots from the latest design, and keep each section under a page.",
+    "focus": "low",
+    "priority": "low",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-26T14:10:32.195Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-26T14:10:32.195Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-26T20:33:32.195Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Prepare the launch checklist",
+    "status": "started",
+    "hours": 10.75,
+    "description": "List everything that must be done before launch, with an owner for each item.",
+    "notes": "Include a rollback plan and how the team will watch for problems on launch day.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-27T16:15:14.677Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-27T16:15:14.677Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      },
+      {
+        "status": "started",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-27T20:07:14.677Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Set up project repository and CI pipeline",
+    "status": "pending",
+    "hours": 0,
+    "description": "Create the Git repository, branch protection rules and a CI workflow that runs lint, type-check and tests on every pull request.",
+    "notes": "Require at least one approving review and a passing CI run before merging to main. Cache node_modules between CI runs to keep builds fast, and run lint, type-check and tests as separate jobs so failures are easy to spot.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-07T20:01:35.994Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-07T20:01:35.994Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Configure ESLint and Prettier",
+    "status": "pending",
+    "hours": 0,
+    "description": "Add shared lint and formatting rules for the API and the app, plus npm scripts to check and fix them.",
+    "notes": "Use eslint-config-prettier so the two tools don't fight over formatting. Add lint and format:check to CI, and consider a pre-commit hook with lint-staged so only changed files are checked.",
+    "focus": "low",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-09T16:41:57.935Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-09T16:41:57.935Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Design the Task data model",
+    "status": "pending",
+    "hours": 0,
+    "description": "Define the Task class fields, class-level permissions and ACL rules for creators and owners.",
+    "notes": "Keep creator and owner as _User pointers so ownership can be handed over without losing who created the task. Lock delete and addField to the master key in the CLP, and let each task's ACL control who can read and edit it.",
+    "focus": "high",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-09T18:18:47.373Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-09T18:18:47.373Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Build user sign-up and login",
+    "status": "pending",
+    "hours": 0,
+    "description": "Add sign-up, login and logout screens backed by Parse users, with form validation and error messages.",
+    "notes": "Use Parse.User.signUp and Parse.User.logIn, and keep the session token in the client SDK's storage. Validate email format and password length on the client, but show the server's error message for taken usernames or bad credentials.",
+    "focus": "high",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-09T20:00:30.533Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-09T20:00:30.533Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add password reset by email",
+    "status": "pending",
+    "hours": 0,
+    "description": "Configure an email adapter for Parse Server and add a 'Forgot password' flow to the login screen.",
+    "notes": "Parse Server needs an email adapter (e.g. a Mailgun or SES adapter) and publicServerURL set before Parse.User.requestPasswordReset works. Show the same confirmation message whether or not the email exists, so the form can't be used to discover accounts.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-09T21:56:17.860Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-09T21:56:17.860Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Create the task list view",
+    "status": "pending",
+    "hours": 0,
+    "description": "Show the signed-in user's tasks sorted by order, with status and priority badges and an empty state.",
+    "notes": "Query tasks where owner equals the current user, sorted by order and then createdAt. Use consistent colors for status and priority badges, and show an empty state with a 'Create your first task' button when there are none.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-12T19:31:08.110Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-12T19:31:08.110Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add drag-and-drop reordering",
+    "status": "pending",
+    "hours": 0,
+    "description": "Let users drag tasks to reorder them and save the new order values in a single batch request.",
+    "notes": "A library like dnd-kit handles keyboard and touch dragging. After a drop, update the order of every moved task and save them together with Parse.Object.saveAll, rolling back the list if the save fails.",
+    "focus": "high",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-13T16:35:14.992Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-13T16:35:14.992Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Build the task create and edit form",
+    "status": "pending",
+    "hours": 0,
+    "description": "One form for creating and editing tasks, with fields for title, description, hours, focus and priority.",
+    "notes": "Reuse one form component for both modes and pass an existing task to switch to edit. Send changes through the Task SDK's update(), which validates each field against FIELDS, and disable the save button while a request is in flight.",
+    "focus": "medium",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-13T19:29:24.623Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-13T19:29:24.623Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Show task activity history",
+    "status": "pending",
+    "hours": 0,
+    "description": "Display each task's status changes from the activity log as a timeline with who made each change and when.",
+    "notes": "Each activity entry has a status, timestamp and user pointer. Include the user when fetching the task so names can be shown, and format timestamps relative to now (e.g. '2 hours ago') with the full date on hover.",
+    "focus": "low",
+    "priority": "low",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-14T14:59:44.686Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-14T14:59:44.686Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add a task-create cloud function",
+    "status": "pending",
+    "hours": 0,
+    "description": "Expose the Task SDK's create() to clients through a cloud function that runs with the caller's session token.",
+    "notes": "Pass the caller's session token (req.user.getSessionToken()) to create() so the beforeSave trigger sees the real user and sets creator, owner and the ACL. Reject calls without a signed-in user.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-15T19:48:16.990Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-15T19:48:16.990Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Write unit tests for the Task beforeSave trigger",
+    "status": "pending",
+    "hours": 0,
+    "description": "Cover creator and owner defaults, the ACL on create and update, and activity entries when the status changes.",
+    "notes": "Call beforeSave directly with fake request objects, as the existing cloud tests do. Cover a new task with and without a user, a master-key save, a change of owner, an unchanged status and a new status being appended to activity.",
+    "focus": "high",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-15T15:29:29.354Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-15T15:29:29.354Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add end-to-end tests for the main task flow",
+    "status": "pending",
+    "hours": 0,
+    "description": "Use Playwright to sign in, create a task, move it through each status and check the activity history.",
+    "notes": "Run against a separate test database that is reset before each run. Create a test user in setup, and use data-testid attributes on key elements so tests don't break when copy or styles change.",
+    "focus": "high",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-16T15:52:17.303Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-16T15:52:17.303Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Make the layout responsive",
+    "status": "pending",
+    "hours": 0,
+    "description": "Adjust the task list and form for phone and tablet widths, including a collapsible navigation menu.",
+    "notes": "Design mobile-first with breakpoints around 640px and 1024px. Make sure tap targets are at least 44px and the task form stays usable when the on-screen keyboard is open.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-20T14:05:37.042Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-20T14:05:37.042Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add dark mode",
+    "status": "pending",
+    "hours": 0,
+    "description": "Define color tokens for light and dark themes, follow the system setting and remember the user's choice.",
+    "notes": "Define colors as CSS custom properties and switch them with prefers-color-scheme plus a data-theme attribute for the manual toggle. Store the user's choice in localStorage and apply it before first paint to avoid a flash of the wrong theme.",
+    "focus": "low",
+    "priority": "low",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-21T15:33:59.463Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-21T15:33:59.463Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Run an accessibility audit",
+    "status": "pending",
+    "hours": 0,
+    "description": "Check keyboard navigation, focus states, labels and color contrast across all screens and fix any issues.",
+    "notes": "Start with an automated pass using axe or Lighthouse, then test manually with only the keyboard and with a screen reader. Check that drag-and-drop reordering also has a keyboard alternative.",
+    "focus": "medium",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-21T15:24:51.660Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-21T15:24:51.660Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Add database indexes for task queries",
+    "status": "pending",
+    "hours": 0,
+    "description": "Index the Task class on owner and order so the task list query stays fast as the number of tasks grows.",
+    "notes": "Add a compound index on { owner: 1, order: 1 } to match the task list query. Check the query plan with explain() before and after, and add indexes through a migration or the schema so every environment gets them.",
+    "focus": "low",
+    "priority": "low",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-22T21:39:30.553Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-22T21:39:30.553Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Optimize the front-end bundle size",
+    "status": "pending",
+    "hours": 0,
+    "description": "Analyze the Vite build output, lazy-load routes and remove unused dependencies to speed up the first load.",
+    "notes": "Use rollup-plugin-visualizer to see what's in the Vite bundle. Lazy-load routes with dynamic import(), and check whether the Parse SDK can be loaded only after sign-in.",
+    "focus": "medium",
+    "priority": "low",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-26T14:09:57.326Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-26T14:09:57.326Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Set up error monitoring",
+    "status": "pending",
+    "hours": 0,
+    "description": "Report uncaught errors from the app and the API to a monitoring service, with source maps for the front end.",
+    "notes": "Upload source maps during the build but don't serve them publicly. Tag errors with the environment and release version, and filter out noise like browser extension errors.",
+    "focus": "low",
+    "priority": "medium",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-26T16:01:06.401Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-26T16:01:06.401Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Create staging and production deployments",
+    "status": "pending",
+    "hours": 0,
+    "description": "Deploy the API and app to staging on every merge to main, with a manual approval step for production.",
+    "notes": "Keep secrets like MASTER_KEY in the hosting platform's environment settings, never in the repo. Staging should use its own database, and production deploys should be easy to roll back to the previous release.",
+    "focus": "high",
+    "priority": "high",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-26T15:10:34.881Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-26T15:10:34.881Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "task": "Write the API README",
+    "status": "pending",
+    "hours": 0,
+    "description": "Document local setup, environment variables, npm scripts and how to run the task seed.",
+    "notes": "List every variable from .env.example with what it does, and explain that the task-seed cloud function needs the master key. Include the Node version and note that tests need a native (arm64 on Apple Silicon) Node build.",
+    "focus": "low",
+    "priority": "low",
+    "startedAt": {
+      "__type": "Date",
+      "iso": "2026-10-27T18:01:02.766Z"
+    },
+    "activity": [
+      {
+        "status": "pending",
+        "timestamp": {
+          "__type": "Date",
+          "iso": "2026-10-27T18:01:02.766Z"
+        },
+        "user": {
+          "__type": "Pointer",
+          "className": "_User",
+          "objectId": "G0CkbdFR3V"
+        }
+      }
+    ]
+  }
+]

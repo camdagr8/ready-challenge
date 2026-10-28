@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    // Node runs the .ts files directly (type stripping), so tsc only type-checks
+    "noEmit": true,
+    "target": "esnext",
+    "lib": ["esnext"],
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "moduleDetection": "force",
+    "types": ["node"],
+
+    // Required for Node's type stripping
+    "allowImportingTsExtensions": true,
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src", "test", "vitest.config.ts"]
+}
