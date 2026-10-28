@@ -2,5 +2,4 @@
 import './lib/Hook/hook.ts';
 import bootstrap from './bootstrap.ts';
 
-await Hook.run('init', {});
 await bootstrap();

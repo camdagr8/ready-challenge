@@ -1,8 +1,8 @@
-import express, { type Application } from 'express';
 import fs from 'node:fs';
 import http from 'node:http';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
+import express, { type Application } from 'express';
 import type { Middleware } from './middleware/middleware.types.ts';
 
 const middlewareDir = path.join(import.meta.dirname, 'middleware');
@@ -50,12 +50,6 @@ export default async (app?: Application): Promise<Application> => {
 
   app = app || express();
 
-  await Hook.run('bootstrap', {
-    app,
-    port: Number(PORT),
-    serverUrl: SERVER_URL,
-  });
-
   // MIDDLEWARES
   // Load each middleware in order and call its default export with the app.
   // Awaited one at a time so async setup (e.g. Parse Server start) finishes
@@ -79,12 +73,17 @@ export default async (app?: Application): Promise<Application> => {
   // (e.g. the Parse LiveQuery WebSocket server).
   const httpServer = http.createServer(app);
 
-  await Hook.run('beforeStart', {
-    app,
-    httpServer,
-    port: Number(PORT),
-    serverUrl: SERVER_URL,
-  });
+  // Run lifecycle hooks in order: init, bootstrap, beforeStart, started.
+  const hooks = ['init', 'bootstrap', 'beforeStart', 'started'];
+
+  for (const hook of hooks) {
+    await Hook.run(hook, {
+      app,
+      httpServer,
+      port: Number(PORT),
+      serverUrl: SERVER_URL,
+    });
+  }
 
   httpServer.listen(Number(PORT), async () => {
     await Hook.run('started', {
